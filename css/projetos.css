@@ -1,0 +1,159 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** FORMATAÇÕES GENÉRICAS ******
+*/
+
+li {list-style: none;}
+a {text-decoration: none;}
+
+/*
+****** HEADER ******
+*/
+
+#header { /* Estilização do header */
+    background-color: #1d0000b9; 
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;
+}
+
+#title a { /* Estilização do title */
+    font-size: 40px; 
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#title :hover { /* Efeito hover no title */
+    color: #da625e;
+}
+
+#header_links a { /* Estilização dos links do header */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #da625e;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header_links :hover { /* Efeito hover nos links do header */
+    background-color: #ffffff;
+    color: #da625e;
+}
+
+/*
+****** CONTEÚDO DA PÁGINA ******
+*/
+
+
+.linha_comeco { /* Linha de início */
+    width: 100%;
+    height: 2px;
+    background-color: #da625e;
+    float: center;
+}
+
+.linha_comeco:hover { /* Efeito hover na linha */
+    background-color: #1d0000b9;
+}
+
+.descricao { /* Estilização da caixa da descrição */
+    width: 460px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+.title2 { /* Estilização do título */
+    font-size: 30px;
+    font-weight: bold;
+    color: #da625e;
+}
+
+.title2c:hover { /* Efeito hover no título */
+    color: #1d0000b9;
+}
+
+.text_container1 { /* Estilização do container */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0px 0;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.text_container2 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.link_projeto { /* Estilização dos links dos projetos */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #da625e;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link_projeto:hover { /* Efeito hover nos links do header */
+    background-color: rgb(219, 219, 219);
+    color: #da625e;
+}
+
+/*
+****** RODAPÉ ******
+*/
+
+#rodape { /* Estilização do rodapé */
+    background-color: #1d0000b9; 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    clear: both;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#rodape :hover { /* Efeito hover no rodapé */
+    color: #ffffff;
+}
+
+
+
+
+
+
+    
